@@ -116,6 +116,10 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 -include $(LOCAL_PATH)/product_prop.mk
 -include $(LOCAL_PATH)/system_prop.mk
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
