@@ -163,6 +163,9 @@ BUILD_WITHOUT_VENDOR := true
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
