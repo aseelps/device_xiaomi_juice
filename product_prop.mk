@@ -15,6 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
+    debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     ro.surface_flinger.use_color_management=true \
     ro.hardware.egl=adreno \
