@@ -54,10 +54,6 @@ PRODUCT_PACKAGES += \
     tinymix \
     libaudio-resampler
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothQti
-
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
