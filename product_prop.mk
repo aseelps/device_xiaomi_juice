@@ -15,7 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
-    debug.sf.hw=1 \
+    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=0 \
     debug.egl.hw=1 \
     debug.egl.force.msaa=1 \
