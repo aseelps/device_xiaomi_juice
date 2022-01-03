@@ -19,6 +19,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=0 \
     debug.egl.hw=1 \
     debug.egl.force.msaa=1 \
+    debug.sf.enable_hwc_vds=0 \
     ro.surface_flinger.use_color_management=true \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno
